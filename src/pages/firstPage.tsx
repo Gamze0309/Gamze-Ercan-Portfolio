@@ -1,10 +1,10 @@
-const firstPage = () => {
+const FirstPage = () => {
   return (
-    <div>
-      <h1>Welcome to the First Page</h1>
-      <p>This is the content of the first page.</p>
+    <div className="flex h-screen w-full">
+      <div className="w-1/3 h-full bg-orange"></div>
+      <div className="w-2/3 h-full bg-yellow"></div>
     </div>
   );
 };
 
-export default firstPage;
+export default FirstPage;
