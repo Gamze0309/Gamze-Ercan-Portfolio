@@ -2,7 +2,7 @@ const Information = () => {
   return (
     <div
       id="information"
-      className="min-h-screen md:h-screen w-full md:snap-start bg-green flex flex-col items-center justify-center font-primary-family relative md:overflow-hidden py-24 md:py-0"
+      className="min-h-screen md:h-screen w-full md:snap-start bg-green flex flex-col items-center justify-center relative md:overflow-hidden py-24 md:py-0"
     >
       <div className="absolute top-32 left-10 w-32 h-32 bg-light rounded-full mix-blend-overlay filter blur-xl opacity-50 animate-pulse"></div>
       <div className="absolute bottom-10 right-10 w-48 h-48 bg-yellow rounded-full mix-blend-overlay filter blur-xl opacity-50"></div>
@@ -16,13 +16,13 @@ const Information = () => {
         ★
       </div>
 
-      <div className="container mx-auto px-4 md:px-12 relative z-10">
+      <div className="container mx-auto px-4 md:px-16 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-12">
           <div className="flex-1 text-center md:text-right space-y-2 md:space-y-4">
-            <h2 className="text-xl sm:text-3xl font-bold text-dark mb-1 md:mb-2">
+            <h2 className="text-xl sm:text-3xl font-bold text-dark mb-1 md:mb-2 font-primary-family">
               Who I Am
             </h2>
-            <p className="text-dark/90 text-sm md:text-lg leading-relaxed">
+            <p className="text-dark/90 text-sm md:text-lg leading-relaxed font-content-family">
               I am a dedicated{" "}
               <span className="font-bold text-light">Software Engineer</span>{" "}
               with a passion for building robust and scalable web applications.
@@ -41,10 +41,10 @@ const Information = () => {
           </div>
 
           <div className="flex-1 text-center md:text-left space-y-2 md:space-y-4">
-            <h2 className="text-xl sm:text-3xl font-bold text-dark mb-1 md:mb-2">
+            <h2 className="text-xl sm:text-3xl font-bold text-dark mb-1 md:mb-2 font-primary-family">
               What I Do
             </h2>
-            <p className="text-dark/90 text-sm md:text-lg leading-relaxed">
+            <p className="text-dark/90 text-sm md:text-lg leading-relaxed font-content-family">
               I specialize in{" "}
               <span className="font-bold text-light">Frontend Development</span>{" "}
               and modern UI/UX practices. I strive to create seamless digital

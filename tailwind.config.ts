@@ -7,6 +7,7 @@ export default {
       "primary-family": ["Amaranth", "sans-serif"],
       serif: ["Merriweather", "serif"],
       "logo-family": ["Allura", "cursive"],
+      "content-family": ["Inter", "sans-serif"],
     },
     extend: {
       colors: {
