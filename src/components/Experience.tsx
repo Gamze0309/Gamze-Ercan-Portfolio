@@ -33,19 +33,27 @@ const Experience = () => {
     >
       <div className="container ">
         <h2 className="text-3xl md:text-5xl font-bold text-dark mb-12 text-center">
-          Experience
+          Journey{" "}
+          <span role="img" aria-label="rocket">
+            🚀
+          </span>
         </h2>
-        <div className="relative border-l-4 border-orange ml-4 md:ml-auto md:mr-auto md:w-2/3 pl-8 md:pl-12 space-y-10">
+        <div className="mx-auto md:w-2/3 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {experiences.map((exp) => (
-            <div key={exp.id} className="relative">
-              <div className="absolute w-6 h-6 bg-yellow rounded-full -left-[46px] md:-left-[62px] border-4 border-light top-1"></div>
-              <h3 className="text-xl md:text-2xl font-bold text-dark">
+            <div
+              key={exp.id}
+              className="bg-green/20 rounded-2xl p-6 shadow-sm border border-orange/30"
+            >
+              <h3 className="text-lg md:text-xl font-bold text-dark">
                 {exp.role}
               </h3>
-              <span className="text-sm md:text-base text-orange font-bold mb-2 block">
-                {exp.company} | {exp.period}
+              <span className="text-sm text-orange font-bold mb-2 block">
+                {exp.company}
               </span>
-              <p className="text-dark/80 text-sm lg:text-base leading-relaxed">
+              <span className="text-xs text-dark/70 mb-3 block">
+                {exp.period}
+              </span>
+              <p className="text-dark/80 text-sm leading-relaxed">
                 {exp.description}
               </p>
             </div>
