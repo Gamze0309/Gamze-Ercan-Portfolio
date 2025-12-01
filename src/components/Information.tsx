@@ -8,13 +8,22 @@ const Information = () => {
     >
       <div className="info-decoration-circle top-32 left-10 w-32 h-32 bg-light animate-pulse"></div>
       <div className="info-decoration-circle bottom-10 right-10 w-48 h-48 bg-yellow"></div>
-      <div className="info-decoration-star top-24 right-1/4 text-3xl text-yellow opacity-80 animate-bounce">
+      <div
+        className="info-decoration-star top-24 right-1/4 text-3xl text-yellow opacity-80 animate-bounce"
+        aria-hidden="true"
+      >
         ★
       </div>
-      <div className="info-decoration-star bottom-32 left-20 text-xl text-light opacity-60 animate-pulse">
+      <div
+        className="info-decoration-star bottom-32 left-20 text-xl text-light opacity-60 animate-pulse"
+        aria-hidden="true"
+      >
         ★
       </div>
-      <div className="info-decoration-star top-1/3 left-10 text-lg text-orange opacity-70">
+      <div
+        className="info-decoration-star top-1/3 left-10 text-lg text-orange opacity-70"
+        aria-hidden="true"
+      >
         ★
       </div>
 

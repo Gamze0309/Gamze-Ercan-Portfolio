@@ -3,6 +3,7 @@ import Lottie, { type LottieRefCurrentProps } from "lottie-react";
 import animationData from "../assets/envelope.json";
 import CustomButton from "./CustomButton";
 import { ANIMATION_INTERSECTION_THRESHOLD, SECTION_IDS } from "../constants";
+import { config } from "../config/env";
 
 const Contact = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -58,7 +59,7 @@ const Contact = () => {
             <p className="card-text mt-2">
               LinkedIn:{" "}
               <a
-                href="https://linkedin.com/in/gamze"
+                href={config.contact.linkedinUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange font-bold hover:underline"
@@ -69,7 +70,7 @@ const Contact = () => {
             <p className="card-text mt-2">
               GitHub:{" "}
               <a
-                href="https://github.com/Gamze0309"
+                href={config.contact.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange font-bold hover:underline"
@@ -83,7 +84,10 @@ const Contact = () => {
             <p className="card-text mb-4">
               Prefer quick contact? Drop me a line and I’ll reply soon.
             </p>
-            <CustomButton text="Send Email" link="mailto:gamze@example.com" />
+            <CustomButton
+              text="Send Email"
+              link={`mailto:${config.contact.email}`}
+            />
           </div>
         </div>
       </div>

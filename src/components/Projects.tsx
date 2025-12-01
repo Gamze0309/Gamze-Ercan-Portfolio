@@ -16,7 +16,12 @@ const Projects = () => {
             <div key={p.id} className="group card-hover">
               <div className="flex items-start justify-between">
                 <h3 className="card-title">{p.title}</h3>
-                <span className="text-orange text-sm font-bold">★</span>
+                <span
+                  className="text-orange text-sm font-bold"
+                  aria-hidden="true"
+                >
+                  ★
+                </span>
               </div>
               <p className="card-text mt-3">{p.description}</p>
               <div className="flex flex-wrap gap-2 mt-4 font-content-family mb-6">
