@@ -23,7 +23,7 @@ A modern, responsive portfolio website showcasing my work as a Software Engineer
 
 ```bash
 # Clone the repository
-git clone https://github.com/Gamze0309/Portfolio.git
+git clone https://github.com/Gamze0309/Gamze-Ercan-Portfolio.git
 
 # Navigate to project directory
 cd gamze-ercan-porfolio
@@ -39,7 +39,7 @@ npm run dev
 
 ```
 src/
-├── components/       # React components
+├── components/      # React components
 ├── data/            # Static data (projects, experiences)
 ├── types/           # TypeScript type definitions
 ├── constants/       # Application constants
@@ -66,9 +66,7 @@ The portfolio uses a consistent color palette:
 
 ## 📧 Contact
 
-- **Email**: gamze@example.com
-- **LinkedIn**: [linkedin.com/in/gamze](https://linkedin.com/in/gamze)
-- **GitHub**: [github.com/Gamze0309](https://github.com/Gamze0309)
+- **LinkedIn**: [linkedin.com/in/gamze-ipek](linkedin.com/in/gamze-ipek)
 
 ---
 
